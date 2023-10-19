@@ -1,0 +1,21 @@
+JPA = 스프링부트는 JPA(Java Persistence API)를 사용하여 데이터베이스를 처리한다. JPA는 자바 진영에서 ORM(Object-Relation Mapping)의 기술 표준으로 사용하는 인터페이스의 모음
+
+인터페이스 = 다른 클래스를 작성할 때 기본이 되는 틀을 제공하면서, 다른 클래스 사이의 중간 매개 역할까지 담당하는 일종의 추상 클래스를 의미
+
+@ResponseStatus = HTTP 상태 코드 설정
+
+@AutoWired = 필요한 의존 객체의 “타입"에 해당하는 빈을 찾아 주입
+
+@RequiredArgsConstructor = 초기화 되지않은 final 필드나, @NonNull 이 붙은 필드에 대해 생성자를 생성
+
+bindingResult = 스프링이 제공하는 검증 오류를 보관하는 객체
+
+@Configuration =  스프링의 환경설정 파일임을 의미하는 어노테이션
+
+@EnableWebSecurity = 모든 요청 URL이 스프링 시큐리티의 제어를 받도록 만드는 어노테이션
+
+CSRF(cross site request forgery) = 웹 사이트 취약점 공격을 방지하기 위해 사용하는 기술 
+
+Optional<T> = null이 올 수 있는 값을 감싸는 Wrapper 클래스 
+
+Set은 중복을 허용하지 않는 자료형이다.
